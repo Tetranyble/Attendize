@@ -13,6 +13,7 @@ class IndexController extends Controller
      */
     public function showIndex(Request $request)
     {
-        return redirect()->route('showSelectOrganiser');
+        //return redirect()->route('showSelectOrganiser');
+        return redirect()->route('showEventPage',['event_id'=>1, 'event_slug'=>'free-one-week-web-application-development']);
     }
 }

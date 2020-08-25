@@ -1,2 +1,5 @@
-RewriteEngine On
-RewriteRule ^(.*)$ public/$1 [L]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^presence.pensuh.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.presence.pensuh.com$
+RewriteCond %{REQUEST_URI} !web/
+RewriteRule (.*) /public/$1 [L]

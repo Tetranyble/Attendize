@@ -15,7 +15,7 @@
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+#/vendor
 _ide_helper.php
 build
 Homestead.json

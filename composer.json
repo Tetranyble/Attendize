@@ -42,6 +42,7 @@
         "predis/predis": "~1.1",
         "stripe/stripe-php": "^7.1",
         "superbalist/php-money": "^2.0",
+        "unicodeveloper/laravel-paystack": "^1.0",
         "vinelab/http": "~1.5"
     },
     "require-dev": {

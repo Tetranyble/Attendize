@@ -184,6 +184,8 @@ return [
         App\Providers\HelpersServiceProvider::class,
         Nitmedia\Wkhtml2pdf\L5Wkhtml2pdfServiceProvider::class,
 
+        Unicodeveloper\Paystack\PaystackServiceProvider::class,
+
     ],
 
     /*
@@ -240,6 +242,8 @@ return [
         'PDF'          => Nitmedia\Wkhtml2pdf\Facades\Wkhtml2pdf::class,
         'Utils'        => App\Attendize\Utils::class,
         'Excel'        => Maatwebsite\Excel\Facades\Excel::class,
+
+        'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
     ],
 
 ];
